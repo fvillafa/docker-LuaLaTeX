@@ -18,6 +18,6 @@ compile it with Ubuntu.
 
 ## TODO
 
-- Specify Ubuntu version in the Dockerfile (I had 24.04 on my PC)
+- ~Specify Ubuntu version in the Dockerfile (I had 24.04 on my PC)~
 - Configure actions to upload an image to Docker Hub
 - Change image definition so executable can be overriden?
