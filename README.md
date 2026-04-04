@@ -25,4 +25,4 @@ compile it with Ubuntu.
 
 - ~Specify Ubuntu version in the Dockerfile (I had 24.04 on my PC)~
 - Configure actions to upload an image to Docker Hub
-- Change image definition so executable can be overriden?~
+- ~Change image definition so executable can be overriden?~
