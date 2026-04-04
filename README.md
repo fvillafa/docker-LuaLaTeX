@@ -9,6 +9,11 @@ Then move where your LaTeX file is and compile your .tex source with:
 ```
 docker run --rm -v $(pwd):/workspace <your_image_name> <your_LaTeX_file.tex>
 ```
+If you want to override lualatex and compile with pdflatex (Moderncv results vary upon this):
+```
+docker run --rm -v $(pwd):/workspace <your_image_name> pdflatex <your_LaTeX_file.tex>
+```
+
 ## Rationale
 
 moderncv has templates with some colors, under Ubuntu in my previous machine (24 LTS) it compiled fine.
@@ -20,4 +25,4 @@ compile it with Ubuntu.
 
 - ~Specify Ubuntu version in the Dockerfile (I had 24.04 on my PC)~
 - Configure actions to upload an image to Docker Hub
-- Change image definition so executable can be overriden?
+- Change image definition so executable can be overriden?~
