@@ -14,4 +14,4 @@ RUN luaotfload-tool --update
 
 WORKDIR /workspace
 
-ENTRYPOINT ["lualatex"]
+CMD ["lualatex"]
