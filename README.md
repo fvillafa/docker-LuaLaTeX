@@ -9,7 +9,7 @@ Then move where your LaTeX file is and compile your .tex source with:
 ```
 docker run --rm -v $(pwd):/workspace <your_image_name> <your_LaTeX_file.tex>
 ```
-If you want to override LuaLaTeX and compile with pdflatex (Moderncv results vary upon this):
+If you want to override LuaLaTeX and compile with pdflatex (Moderncv results vary depending on this):
 ```
 docker run --rm -v $(pwd):/workspace <your_image_name> pdflatex <your_LaTeX_file.tex>
 ```
